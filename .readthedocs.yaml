@@ -5,6 +5,9 @@ build:
   tools:
     python: "3.12"
 
-commands:
-  - python -m pip install -r drivetrains/requirements.txt
-  - python -m sphinx -b html drivetrains $READTHEDOCS_OUTPUT/html
+sphinx:
+  configuration: drivetrains/conf.py
+
+python:
+  install:
+    - requirements: drivetrains/requirements.txt
