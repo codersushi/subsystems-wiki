@@ -5,8 +5,8 @@ build:
   tools:
     python: "3.12"
 
-mkdocs:
-  configuration: drivetrains/mkdocs.yml
+sphinx:
+  configuration: drivetrains/conf.py
 
 python:
   install:
