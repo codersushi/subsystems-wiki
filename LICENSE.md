@@ -1,0 +1,25 @@
+LICENSE
+
+EDUCATIONAL CONTENT, GUIDES, DIAGRAMS, AND CAD MODELS
+Copyright (c) 2026 [Your Name or Project Name]. All rights reserved.
+
+Unless otherwise noted, all original text, documentation, illustrations, videos, and 3D CAD assemblies in this repository are licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
+
+To view a copy of this license, visit:
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+Under this license, you are free to:
+- Share: Copy and redistribute the material in any medium or format for non-commercial educational purposes.
+- Adapt: Remix, transform, and build upon the material for personal, team, or classroom use.
+
+Under the following terms:
+- Attribution: You must give appropriate credit to [Your Name or Project Name], provide a link to the license, and indicate if changes were made.
+- NonCommercial: You may not use the material for commercial purposes (including reselling, paywalling, or bundling into paid courses or camps).
+- ShareAlike: If you remix, transform, or build upon the material, you must distribute your contributions under the same license.
+
+------------------------------------------------------------------------
+
+DISCLAIMER AND TRADEMARKS
+This project is an independent educational resource and is not affiliated with, endorsed by, or sponsored by VEX Robotics, Inc., Innovation First International, Inc., or the Robotics Education & Competition (REC) Foundation.
+
+"VEX", "VEX IQ", and related marks are trademarks of Innovation First International, Inc.
