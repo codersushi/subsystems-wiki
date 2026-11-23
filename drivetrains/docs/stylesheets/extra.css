@@ -6,6 +6,19 @@
 }
 
 [data-md-color-scheme="default"] .md-footer__link,
-[data-md-color-scheme="default"] .md-footer__title {
-  color: var(--md-default-fg-color);
+[data-md-color-scheme="default"] .md-footer__title,
+[data-md-color-scheme="default"] .md-footer__direction,
+[data-md-color-scheme="default"] .md-footer-meta__inner,
+[data-md-color-scheme="default"] .md-copyright,
+[data-md-color-scheme="default"] .md-copyright a {
+  color: var(--md-default-fg-color--light);
+}
+
+.md-header__button.md-logo {
+  margin-right: 0.1rem;
+  padding-right: 0.2rem;
+}
+
+.md-header__title {
+  margin-left: 0.1rem;
 }
