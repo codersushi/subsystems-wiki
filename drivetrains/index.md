@@ -6,14 +6,14 @@ Welcome to the **Subsystems Wiki** drivetrain documentation! Every guide here is
 :maxdepth: 2
 :caption: Core Concepts
 
-gear-ratios
-wheels-and-omni
-friction-and-bracing
+docs/gear-ratios
+docs/wheels-and-omni
+docs/friction-and-bracing
 ```
 
 ```{toctree}
 :maxdepth: 2
 :caption: Drivetrain Types
 
-tank-drive
+docs/tank-drive
 ```

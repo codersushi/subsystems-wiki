@@ -1,7 +1,7 @@
 project = "Subsystems Wiki: Drivetrains"
 copyright = "2026, Subsystems Wiki"
 extensions = ["myst_parser"]
-root_doc = "docs/index"
+root_doc = "index"
 html_theme = "furo"
 
 html_theme_options = {
