@@ -4,6 +4,8 @@ site_url: https://subwiki-drivetrains.readthedocs.io/en/latest/
 
 theme:
   name: material
+  icon:
+    logo: material/cog
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -55,6 +57,9 @@ markdown_extensions:
 extra_javascript:
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - stylesheets/extra.css
 
 nav:
   - Overview: index.md
