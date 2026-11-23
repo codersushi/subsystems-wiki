@@ -6,8 +6,20 @@ theme:
     scheme: slate
     primary: indigo
   features:
-    - navigation.sections
-    - navigation.expand
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - content.tooltips
+    - content.footnote.tooltips
+    - header.autohide
     - search.highlight
 
 nav:
