@@ -1,1 +1,3 @@
-mkdocs-material
+sphinx
+furo
+myst-parser
