@@ -5,19 +5,19 @@ site_url: https://subwiki-drivetrains.readthedocs.io/en/latest/
 theme:
   name: material
   icon:
-    logo: material/cog
+    logo: material/robot-industrial
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: indigo
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-night
         name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: indigo
       toggle:
-        icon: material/brightness-7
+        icon: material/weather-sunny
         name: Switch to dark mode
   features:
     - navigation.instant
