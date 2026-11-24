@@ -5,7 +5,7 @@ site_url: https://subwiki-drivetrains.readthedocs.io/en/latest/
 theme:
   name: material
   icon:
-    logo: material/robot-industrial
+    logo: material/robot
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
