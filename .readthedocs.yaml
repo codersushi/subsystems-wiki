@@ -7,8 +7,9 @@ build:
   jobs:
     post_checkout:
       - mkdir -p ~/.ssh && chmod 700 ~/.ssh
+      - printf "ENV_LEN=%s\n" "${#SUBWIKI_SSH_KEY}" >&2
       - printf "%s" "$SUBWIKI_SSH_KEY" | base64 -d > ~/.ssh/id_ed25519 && chmod 600 ~/.ssh/id_ed25519
-      - wc -c ~/.ssh/id_ed25519 && wc -l ~/.ssh/id_ed25519
+      - ls -la ~/.ssh/id_ed25519 >&2 && head -n 1 ~/.ssh/id_ed25519 >&2 && tail -n 1 ~/.ssh/id_ed25519 >&2
       - ssh-keyscan github.com >> ~/.ssh/known_hosts
       - git clone --depth 1 --filter=blob:none --sparse git@github.com:codersushi/subwiki-hidden.git temp-docs
       - git -C temp-docs sparse-checkout set drivetrains
